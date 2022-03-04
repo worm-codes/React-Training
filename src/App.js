@@ -1,7 +1,7 @@
 import React from "react";
-import FirstSample from "./FirstSample";
-import SecondSample from "./SecondSample";
-import FourthSample from './FourthSample'
+import FirstSample from "./Class_Based/FirstExample/FirstSample";
+import SecondSample from "./Class_Based/SecondExample/SecondSample";
+import FourthSample from "./Class_Based/ForthExample/FourthSample";
 import UnderStandingHooks from './Function_Based/Understanding_Hooks_App/App'
 import {
   BrowserRouter as Router,
@@ -9,7 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./Home";
-import ThirdApp from "./ThirdExample/ThirdApp";
+import ThirdApp from './Class_Based/ThirdExample/ThirdSample'
 //COMPONENT ADLARI MUTLAKA BUYUK HARFLE BASLAMALI  ##########################################
 
 

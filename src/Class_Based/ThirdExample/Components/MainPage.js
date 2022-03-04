@@ -1,6 +1,6 @@
 import React from "react";
 //rcc shortway to build base
-class ThirdSample extends React.Component{
+class MainPage extends React.Component{
     
     state={term:'Enter Text...'}
     alertFunc=(event)=>{
@@ -46,4 +46,4 @@ class ThirdSample extends React.Component{
 
 
 }
-export default ThirdSample;
+export default MainPage;

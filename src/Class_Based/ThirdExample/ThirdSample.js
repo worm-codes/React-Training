@@ -1,8 +1,8 @@
 import React from 'react';
-import ThirdSample from '../ThirdSample';
+import ThirdSample from './Components/MainPage';
 //import axios from 'axios';
 import unsplash from './api/unsplash';
-import Image_List from './Image_List';
+import Image_List from './Components/Image_List';
 //rcc shortway to build base
 
 class ThirdApp extends React.Component{
