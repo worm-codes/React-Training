@@ -1,0 +1,51 @@
+
+.season-display.winter i{
+    color: blue;
+
+}
+/*season display ve summer classlarini beraber iceren elementin icinde ki icon tag i demek*/
+.season-display.summer i{
+ color: red;
+}
+
+
+.summer{
+    background-color: orange;
+}
+.winter{
+    background-color: aliceblue;
+}
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+
+}
+.icon-right{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+
+/*
+bu sekil de centerlayabiliriz div icinde div olarak
+.content-center{
+    
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+
+}*/
+/*ya da genel div icin flex kurallari yazariz*/
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*onemli*/
+
+}
