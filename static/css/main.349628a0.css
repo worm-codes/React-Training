@@ -1,0 +1,2 @@
+.season-display.winter i{color:blue}.season-display.summer i{color:red}.summer{background-color:orange}.winter{background-color:#f0f8ff}.icon-left{left:10px;position:absolute;top:10px}.icon-right{bottom:10px;position:absolute;right:10px}.season-display{align-items:center;display:flex;height:100vh;justify-content:center}.image-list{grid-gap:0 10px;display:grid;grid-auto-rows:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.image-list img{grid-row-end:2;width:250px}
+/*# sourceMappingURL=main.349628a0.css.map*/
