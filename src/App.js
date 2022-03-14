@@ -2,7 +2,7 @@ import React from "react";
 import FirstSample from "./Class_Based/FirstExample/FirstSample";
 import SecondSample from "./Class_Based/SecondExample/SecondSample";
 import FourthSample from "./Class_Based/ForthExample/FourthSample";
-import UnderStandingHooks from './Function_Based/Understanding_Hooks_App/App'
+import UnderStandingHooks from './Function_Based/Understanding_Hooks_App/Main'
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,14 +26,11 @@ function App() {
   
           <Route path="/" element={<Home/>}/>
           <Route path="/firstSample" element={<FirstSample/>}/>
-            <Route path="/secondSample" element={<SecondSample/>}/>
-             <Route path="/thirdSample" element={<ThirdApp/>}/>
-              <Route path="/fourthSample" element={<FourthSample/>}/>
-               <Route path="/function1" element={<UnderStandingHooks/>}/>
-          
+          <Route path="/secondSample" element={<SecondSample/>}/>
+          <Route path="/thirdSample" element={<ThirdApp/>}/>
+          <Route path="/fourthSample" element={<FourthSample/>}/>
+          <Route path="/function1" element={<UnderStandingHooks/>}/>
 
-          
-          
          
         </Routes>
     
