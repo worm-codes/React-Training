@@ -7,6 +7,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+
 } from "react-router-dom";
 import Home from "./Home";
 import ThirdApp from './Class_Based/ThirdExample/ThirdSample'
@@ -21,15 +22,15 @@ function App() {
     <Router>
      
 
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
   {/*ROUTELARI BOYLE ADIM ADIM EKLIYORUZ BURASI SADECE YONLENDIRIYOR*/}
   
-          <Route path="/" element={<Home/>}/>
-          <Route path="/firstSample" element={<FirstSample/>}/>
-          <Route path="/secondSample" element={<SecondSample/>}/>
-          <Route path="/thirdSample" element={<ThirdApp/>}/>
-          <Route path="/fourthSample" element={<FourthSample/>}/>
-          <Route path="/function1" element={<UnderStandingHooks/>}/>
+          <Route path="/React-Training" element={<Home/>}/>
+          <Route path="/React-Training/firstSample" element={<FirstSample/>}/>
+          <Route path="/React-Training/secondSample" element={<SecondSample/>}/>
+          <Route path="/React-Training/thirdSample" element={<ThirdApp/>}/>
+          <Route path="/React-Training/fourthSample" element={<FourthSample/>}/>
+          <Route path="/React-Training/function1" element={<UnderStandingHooks/>}/>
 
          
         </Routes>
